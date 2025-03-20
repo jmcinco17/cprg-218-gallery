@@ -11,16 +11,38 @@ body{
 header{
     background-color: #120323;
     color: #97bf04;
-
+    padding: 1rem;
+    
+}
+header a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
-nav{
-    margin: 0;
-    background-color: #d9043d;
-    color: white;
-    display: flex;
-    align-items: center;
+h1{
+    text-align: center;
+}
 
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    background-color: #d9043d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav li{
+    display: inline;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
 }
 
 h2{
