@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     font-family: sans-serif;
-  
 }
 
 body{
@@ -12,7 +11,6 @@ header{
     background-color: #120323;
     color: #97bf04;
     padding: 1rem;
-    
 }
 header a{
     justify-content: center;
@@ -53,7 +51,6 @@ h2{
 #gallery-container {
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
-
 }
 
 figure{
@@ -84,7 +81,6 @@ footer{
     #gallery-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    
     }
 }
 @media screen and (max-width:767px){
@@ -94,8 +90,6 @@ footer{
         list-style:none;
         display: block;
         background-color:#120323;
-
-    
     }
     
     nav li{
@@ -108,7 +102,7 @@ footer{
         text-decoration: none;
         color: white;
         border-color: #97bf04;
-        border: 1px solid #97bf04;
+        border: 2px solid #97bf04;
         padding: 1rem;
     }
 
