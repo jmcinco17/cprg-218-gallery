@@ -43,6 +43,7 @@ nav li{
 nav li a{
     text-decoration: none;
     color: white;
+    background-color: #d9043d;
 }
 
 h2{
@@ -79,6 +80,40 @@ footer{
     padding: 1rem;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1000px){
+    #gallery-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     
+    }
+}
+@media screen and (max-width:767px){
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style:none;
+        display: block;
+        background-color:#120323;
+
+    
+    }
+    
+    nav li{
+        display: inline;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: white;
+        border-color: #97bf04;
+        border: 1px solid #97bf04;
+        padding: 1rem;
+    }
+
+    #gallery-container {
+        display: block;
+
+    }
 }
