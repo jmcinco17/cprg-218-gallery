@@ -4,17 +4,59 @@
   
 }
 
+body{
+    background-color: #cccccc;
+}
+
 header{
     background-color: #120323;
-    
+    color: #97bf04;
 
 }
 
 nav{
-    color: #97bf04;
+    margin: 0;
+    background-color: #d9043d;
+    color: white;
+    display: flex;
+    align-items: center;
+
 }
 
+h2{
+    text-align: center;
+}
 
-body{
-    background-color: #cccccc;
+#gallery-container {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+
+}
+
+figure{
+    background-color: white;
+    padding: 1rem;
+}
+
+figure img{
+    border-bottom: 1rem solid #97bf04;
+    max-width: 100%;
+    height: auto;
+
+}
+figure:last-of-type{
+    grid-column: span 2;
+    display: grid;
+    place-items: center;   
+}
+
+footer{
+    background-color: #d9043d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width:1000px) {
+    
 }
